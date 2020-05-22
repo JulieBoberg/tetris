@@ -1,0 +1,19 @@
+.grid {
+  /* changed width and height to accommodate borders in case this messes it up */
+  width: 220px;
+  height: 440px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightpink;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+  /* background-color: green; */
+  border: 1px solid gray;
+}
+
+.tetrimino {
+  background-color: magenta;
+}
